@@ -24,9 +24,12 @@ body {
     object-fit: cover;
   }
 }
-#sun {
+
+/*
+ #sun {
   animation: rotation 30s infinite linear;
-}
+} 
+
 
 @keyframes rotation {
   from {
@@ -36,6 +39,7 @@ body {
     transform: rotate(359deg);
   }
 }
+*/
 
 #container {
   position: absolute;
@@ -64,7 +68,7 @@ body {
   color: #fff;
 
   left: 50%;
-  top: calc(0.8em + 0.8vw);
+  top: 50%;
   transform: translate(-50%, -50%);
 
   div {
@@ -77,15 +81,18 @@ body {
     font-weight: bold;
     background-color: #36aad8;
     border-radius: 10px;
+    box-shadow: 10px 5px 0.8em black;
+    img {
+      width: calc(100% - 25px);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
 
     &:hover {
       cursor: pointer;
-    }
-    &:nth-child(1) {
-      background-color: #04658c;
-    }
-    &:focus {
-      background-color: #04658c;
+      box-shadow: 10px 5px 0.4em black;
     }
   }
 }
@@ -181,7 +188,7 @@ body {
   }
 }
 
-.temperature {
+#temperature {
   position: relative;
   font-family: $fontFamily;
   text-align: center;

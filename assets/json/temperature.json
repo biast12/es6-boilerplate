@@ -1,0 +1,20 @@
+{
+  "author": "The Weatherman",
+  "month": ["januar", "februar", "marts", "april", "maj", "juni", "juli"],
+  "temperature": [
+    {
+      "year": "2018",
+      "averageTemperature": [3, 4, 5, 11, 20, 21, 23]
+    },
+
+    {
+      "year": "2019",
+      "averageTemperature": [2, 5, 5, 12, 13, 22, 24]
+    },
+
+    {
+      "year": "2020",
+      "averageTemperature": [12, 8, 2, 14, 17, 29, 22]
+    }
+  ]
+}

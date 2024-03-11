@@ -1,0 +1,5 @@
+{
+  "year": ["2018", "2019", "2020"],
+  "color": ["#F27F1B", "#F2A922", "#b4e0eb"],
+  "img": ["cloudy", "cloudy-rain", "sun"]
+}
